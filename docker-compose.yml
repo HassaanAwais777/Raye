@@ -1,0 +1,24 @@
+services:
+  backend:
+    build: ./backend
+    container_name: raye-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - RAYE_DB_PATH=/data/raye.db
+      - RAYE_CORS_ORIGINS=*
+    volumes:
+      - raye-data:/data
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: raye-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  raye-data:
