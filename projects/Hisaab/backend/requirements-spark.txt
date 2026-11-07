@@ -1,0 +1,3 @@
+# Optional: the distributed engine. Needs Java 17 or 21 (temurin/openjdk).
+# Everything else in the project runs without this file.
+pyspark>=3.5

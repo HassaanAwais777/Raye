@@ -1,0 +1,36 @@
+﻿# --- python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# --- runtime artefacts (regenerable; benchmarks/results are committed)
+backend/hisaab.db
+backend/data/*.parquet
+backend/data/*.csv
+backend/data/raye/raye_sentiment_full.csv
+
+# --- keep these committed:
+# !backend/data/raye/raye_sentiment_aggregates.json
+# !backend/data/raye/raye_sentiment_sample.csv
+# !backend/results/benchmark_results.json
+# !backend/results/scalability.md
+# !backend/results/runtime_chart.png
+# !backend/results/cost_model.json
+# !backend/results/demo_recommend.json
+
+# --- node / vite
+node_modules/
+frontend/dist/
+*.local
+
+# --- editors / os
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- env
+.env

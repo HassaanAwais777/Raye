@@ -1,0 +1,42 @@
+[
+  {
+    "engine": "pandas",
+    "config": "1\u00d7 r5.xlarge (32 GB) single node",
+    "estimated_node_hours": 0.001,
+    "estimated_cost_usd": 0.02,
+    "data_gb": 2.7,
+    "note": "Scale-UP only: one big box. Simple, cheap, but bounded by one machine's RAM.",
+    "pricing_basis": "on-demand list prices, us-east-1; storage not included (S3 2.7 GB \u2248 $0.062/mo)",
+    "measured_local_seconds": 2.655
+  },
+  {
+    "engine": "mapreduce",
+    "config": "EMR 1 master + 4\u00d7 m5.xlarge core (Hadoop Streaming)",
+    "estimated_node_hours": 1.33,
+    "estimated_cost_usd": 0.255,
+    "data_gb": 2.7,
+    "note": "Scale-OUT: per-node work drops with workers, but cluster boot + IO overhead dominates at 10M rows \u2014 the classic 'Hadoop tax' for small data.",
+    "pricing_basis": "on-demand list prices, us-east-1; storage not included (S3 2.7 GB \u2248 $0.062/mo)",
+    "measured_local_seconds": 57.867
+  },
+  {
+    "engine": "spark",
+    "config": "EMR 1 master + 2\u00d7 m5.xlarge core (Spark local[2] per node in prod: Glue/EMR managed autoscaling)",
+    "estimated_node_hours": 0.019,
+    "estimated_cost_usd": 0.02,
+    "data_gb": 2.7,
+    "note": "In-memory shuffle beats disk-based MapReduce; EMR startup overhead still applies.",
+    "pricing_basis": "on-demand list prices, us-east-1; storage not included (S3 2.7 GB \u2248 $0.062/mo)",
+    "measured_local_seconds": 15.531
+  },
+  {
+    "engine": "polars",
+    "config": "1\u00d7 m5.2xlarge single node",
+    "estimated_node_hours": 0.0,
+    "estimated_cost_usd": 0.02,
+    "data_gb": 2.7,
+    "note": "Same single node, but multi-core + columnar engine: fastest per $.",
+    "pricing_basis": "on-demand list prices, us-east-1; storage not included (S3 2.7 GB \u2248 $0.062/mo)",
+    "measured_local_seconds": 0.687
+  }
+]

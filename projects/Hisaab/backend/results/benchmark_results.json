@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-04T15:31:41Z",
+  "locale": "pk",
+  "scales": [
+    10000,
+    100000,
+    1000000,
+    10000000
+  ],
+  "repeat": 3,
+  "machine": "Linux \u00b7 2 vCPU \u00b7 python 3.12.16 \u00b7 0.1 GB peak (self)",
+  "results": {
+    "pandas": {
+      "10000": {
+        "seconds": 0.931,
+        "peak_mb": 142.6,
+        "sums_ok": true
+      },
+      "100000": {
+        "seconds": 0.945,
+        "peak_mb": 417.0,
+        "sums_ok": true
+      },
+      "1000000": {
+        "seconds": 1.062,
+        "peak_mb": 2135.4,
+        "sums_ok": true
+      },
+      "10000000": {
+        "seconds": 2.655,
+        "peak_mb": 1300.3,
+        "sums_ok": true
+      }
+    },
+    "polars": {
+      "10000": {
+        "seconds": 0.179,
+        "peak_mb": 145.6,
+        "sums_ok": true
+      },
+      "100000": {
+        "seconds": 0.184,
+        "peak_mb": 417.0,
+        "sums_ok": true
+      },
+      "1000000": {
+        "seconds": 0.227,
+        "peak_mb": 2135.4,
+        "sums_ok": true
+      },
+      "10000000": {
+        "seconds": 0.687,
+        "peak_mb": 799.0,
+        "sums_ok": true
+      }
+    },
+    "mapreduce": {
+      "10000": {
+        "seconds": 0.03,
+        "peak_mb": 104.8,
+        "sums_ok": true
+      },
+      "100000": {
+        "seconds": 0.298,
+        "peak_mb": 417.0,
+        "sums_ok": true
+      },
+      "1000000": {
+        "seconds": 3.131,
+        "peak_mb": 2135.4,
+        "sums_ok": true
+      },
+      "10000000": {
+        "seconds": 57.867,
+        "peak_mb": 107.0,
+        "sums_ok": true
+      }
+    },
+    "mapreduce-parallel": {
+      "10000": {
+        "seconds": 0.447,
+        "peak_mb": 104.8,
+        "sums_ok": true
+      },
+      "100000": {
+        "seconds": 0.739,
+        "peak_mb": 417.0,
+        "sums_ok": true
+      },
+      "1000000": {
+        "seconds": 2.525,
+        "peak_mb": 2135.4,
+        "sums_ok": true
+      },
+      "10000000": {
+        "seconds": 39.579,
+        "peak_mb": 107.0,
+        "sums_ok": true
+      }
+    },
+    "spark": {
+      "10000": {
+        "seconds": 11.929,
+        "peak_mb": 153.1,
+        "sums_ok": true
+      },
+      "100000": {
+        "seconds": 12.042,
+        "peak_mb": 417.0,
+        "sums_ok": true
+      },
+      "1000000": {
+        "seconds": 12.568,
+        "peak_mb": 2135.4,
+        "sums_ok": true
+      },
+      "10000000": {
+        "seconds": 15.531,
+        "peak_mb": 153.0,
+        "sums_ok": true
+      }
+    }
+  }
+}

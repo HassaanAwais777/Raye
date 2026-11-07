@@ -1,0 +1,173 @@
+{
+  "dataset": "pk_1000000_42",
+  "budget": 1000000.0,
+  "weekly_points": 265,
+  "l3": [
+    {
+      "platform": "google",
+      "allocated": 713829.56,
+      "share_pct": 71.4,
+      "marginal_roas": 3.5055,
+      "curve_alpha": 6958621.03,
+      "curve_beta": 1271231.68,
+      "curve_r2": 0.9699
+    },
+    {
+      "platform": "facebook",
+      "allocated": 193461.87,
+      "share_pct": 19.3,
+      "marginal_roas": 3.5055,
+      "curve_alpha": 5537798.63,
+      "curve_beta": 1386286.39,
+      "curve_r2": 0.9406
+    },
+    {
+      "platform": "instagram",
+      "allocated": 92708.57,
+      "share_pct": 9.3,
+      "marginal_roas": 3.5055,
+      "curve_alpha": 3967326.72,
+      "curve_beta": 1039036.71,
+      "curve_r2": 0.9154
+    },
+    {
+      "platform": "tiktok",
+      "allocated": 0.0,
+      "share_pct": 0.0,
+      "marginal_roas": 2.9384,
+      "curve_alpha": 2038641.82,
+      "curve_beta": 693788.64,
+      "curve_r2": 0.876
+    },
+    {
+      "platform": "youtube",
+      "allocated": 0.0,
+      "share_pct": 0.0,
+      "marginal_roas": 2.807,
+      "curve_alpha": 1616025.32,
+      "curve_beta": 575707.48,
+      "curve_r2": 0.8692
+    }
+  ],
+  "l3_sentiment": [
+    {
+      "platform": "google",
+      "allocated": 712208.93,
+      "share_pct": 71.2,
+      "expected_incremental_revenue": 3091145.24,
+      "factor": 0.9985867396228357
+    },
+    {
+      "platform": "facebook",
+      "allocated": 194406.07,
+      "share_pct": 19.4,
+      "expected_incremental_revenue": 726750.27,
+      "factor": 1.0
+    },
+    {
+      "platform": "instagram",
+      "allocated": 93385.0,
+      "share_pct": 9.3,
+      "expected_incremental_revenue": 341445.6,
+      "factor": 1.0
+    },
+    {
+      "platform": "tiktok",
+      "allocated": 0.0,
+      "share_pct": 0.0,
+      "expected_incremental_revenue": 0.0,
+      "factor": 1.0
+    },
+    {
+      "platform": "youtube",
+      "allocated": 0.0,
+      "share_pct": 0.0,
+      "expected_incremental_revenue": 0.0,
+      "factor": 1.0007887427435544
+    }
+  ],
+  "factors": [
+    {
+      "platform": "facebook",
+      "evidence": "-",
+      "n_comments": 0,
+      "net_weighted": 0.2041,
+      "deviation": 0.0,
+      "factor": 1.0
+    },
+    {
+      "platform": "google",
+      "evidence": "reddit",
+      "n_comments": 33277,
+      "net_weighted": 0.2008,
+      "deviation": -0.0009421735847761545,
+      "factor": 0.9985867396228357
+    },
+    {
+      "platform": "instagram",
+      "evidence": "-",
+      "n_comments": 0,
+      "net_weighted": 0.2041,
+      "deviation": 0.0,
+      "factor": 1.0
+    },
+    {
+      "platform": "tiktok",
+      "evidence": "-",
+      "n_comments": 0,
+      "net_weighted": 0.2041,
+      "deviation": 0.0,
+      "factor": 1.0
+    },
+    {
+      "platform": "youtube",
+      "evidence": "youtube",
+      "n_comments": 177234,
+      "net_weighted": 0.2047,
+      "deviation": 0.0005258284957029883,
+      "factor": 1.0007887427435544
+    }
+  ],
+  "global_brand_health": 0.2041,
+  "comments_total": 210511,
+  "expected": {
+    "l3": 4163719.91,
+    "l3_sentiment": 4163715.9,
+    "delta": -4.01,
+    "l0_equal_split": 3459723.68,
+    "l1_roas_proportional": 3663780.41,
+    "l2_bayes_shrunk": 3651634.87
+  },
+  "elapsed_seconds": 7.3,
+  "crisis_scenario": {
+    "description": "YouTube brand voice +0.20 \u2192 \u22120.20 (same n=177k evidence)",
+    "factors_now": {
+      "facebook": 1.0,
+      "google": 0.9985867396228357,
+      "instagram": 1.0,
+      "tiktok": 1.0,
+      "youtube": 1.0007887427435544
+    },
+    "factors_crisis": {
+      "facebook": 1.0,
+      "google": 0.9985867396228357,
+      "instagram": 1.0,
+      "tiktok": 1.0,
+      "youtube": 0.88
+    },
+    "allocation_now": {
+      "google": 712208.93,
+      "facebook": 194406.07,
+      "instagram": 93385.0,
+      "tiktok": 0.0,
+      "youtube": 0.0
+    },
+    "allocation_crisis": {
+      "google": 712208.93,
+      "facebook": 194406.07,
+      "instagram": 93385.0,
+      "tiktok": 0.0,
+      "youtube": 0.0
+    }
+  }
+}

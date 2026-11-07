@@ -1,0 +1,303 @@
+{
+  "provenance": {
+    "source_project": "Raye — multilingual sentiment analysis (github.com/HassaanAwais777/Raye)",
+    "source_db": "/home/z/my-project/db/custom.db",
+    "corpus": "Raye demo corpus (synthetic, isDemo=true) — labels produced by Raye's EN/Urdu/Roman-Urdu lexicon + rules pipeline",
+    "exported_at": "2026-11-04T15:11:00+00:00",
+    "comments_total": 210511,
+    "score_range": [
+      -1.0,
+      1.0
+    ],
+    "brand_health": "net_weighted = likes-weighted mean of Raye's comment score"
+  },
+  "global": {
+    "n": 210511,
+    "net": 0.1929,
+    "net_weighted": 0.2041,
+    "by_sentiment": {
+      "mixed": 51893,
+      "negative": 40113,
+      "neutral": 21583,
+      "positive": 96922
+    },
+    "likes": 29231463
+  },
+  "platforms": {
+    "reddit": {
+      "n": 33277,
+      "net": 0.1784,
+      "net_weighted": 0.2008,
+      "by_sentiment": {
+        "mixed": 8145,
+        "negative": 6621,
+        "neutral": 3458,
+        "positive": 15053
+      },
+      "likes": 4674540
+    },
+    "youtube": {
+      "n": 177234,
+      "net": 0.1956,
+      "net_weighted": 0.2047,
+      "by_sentiment": {
+        "mixed": 43748,
+        "negative": 33492,
+        "neutral": 18125,
+        "positive": 81869
+      },
+      "likes": 24556923
+    }
+  },
+  "languages": {
+    "n": 210511,
+    "net": 0.1929,
+    "net_weighted": 0.2041,
+    "by_sentiment": {
+      "mixed": 51893,
+      "negative": 40113,
+      "neutral": 21583,
+      "positive": 96922
+    },
+    "likes": 29231463
+  },
+  "products": [
+    {
+      "slug": "redmi-note-12",
+      "name": "Redmi Note 12",
+      "category": "Smartphone",
+      "n": 36000,
+      "net": 0.2486,
+      "net_weighted": 0.2644,
+      "by_sentiment": {
+        "mixed": 8985,
+        "negative": 5735,
+        "neutral": 3254,
+        "positive": 18026
+      },
+      "likes": 5015624
+    },
+    {
+      "slug": "infinix-hot-30",
+      "name": "Infinix Hot 30",
+      "category": "Smartphone",
+      "n": 29999,
+      "net": 0.2084,
+      "net_weighted": 0.2188,
+      "by_sentiment": {
+        "mixed": 7688,
+        "negative": 5437,
+        "neutral": 2810,
+        "positive": 14064
+      },
+      "likes": 4172314
+    },
+    {
+      "slug": "iphone-13",
+      "name": "iPhone 13",
+      "category": "Smartphone",
+      "n": 28000,
+      "net": 0.254,
+      "net_weighted": 0.2604,
+      "by_sentiment": {
+        "mixed": 7125,
+        "negative": 4158,
+        "neutral": 2638,
+        "positive": 14079
+      },
+      "likes": 3793140
+    },
+    {
+      "slug": "samsung-galaxy-a14",
+      "name": "Samsung Galaxy A14",
+      "category": "Smartphone",
+      "n": 19000,
+      "net": 0.1959,
+      "net_weighted": 0.1976,
+      "by_sentiment": {
+        "mixed": 4683,
+        "negative": 3615,
+        "neutral": 1901,
+        "positive": 8801
+      },
+      "likes": 2680413
+    },
+    {
+      "slug": "airpods-pro-2",
+      "name": "AirPods Pro 2",
+      "category": "Audio",
+      "n": 16000,
+      "net": 0.2375,
+      "net_weighted": 0.2585,
+      "by_sentiment": {
+        "mixed": 3609,
+        "negative": 2612,
+        "neutral": 1861,
+        "positive": 7918
+      },
+      "likes": 2141117
+    },
+    {
+      "slug": "tecno-spark-10",
+      "name": "Tecno Spark 10",
+      "category": "Smartphone",
+      "n": 15500,
+      "net": -0.1107,
+      "net_weighted": -0.1181,
+      "by_sentiment": {
+        "mixed": 4398,
+        "negative": 5894,
+        "neutral": 1460,
+        "positive": 3748
+      },
+      "likes": 2199518
+    },
+    {
+      "slug": "realme-c55",
+      "name": "Realme C55",
+      "category": "Smartphone",
+      "n": 12999,
+      "net": 0.2493,
+      "net_weighted": 0.2605,
+      "by_sentiment": {
+        "mixed": 3099,
+        "negative": 2043,
+        "neutral": 1268,
+        "positive": 6589
+      },
+      "likes": 1800933
+    },
+    {
+      "slug": "audionic-airbud-550",
+      "name": "Audionic Airbud 550",
+      "category": "Audio",
+      "n": 11000,
+      "net": 0.2064,
+      "net_weighted": 0.2437,
+      "by_sentiment": {
+        "mixed": 2663,
+        "negative": 1964,
+        "neutral": 1259,
+        "positive": 5114
+      },
+      "likes": 1520330
+    },
+    {
+      "slug": "air-31-earbuds",
+      "name": "Air 31 Earbuds",
+      "category": "Audio",
+      "n": 9500,
+      "net": -0.1034,
+      "net_weighted": -0.0942,
+      "by_sentiment": {
+        "mixed": 2540,
+        "negative": 3565,
+        "neutral": 1084,
+        "positive": 2311
+      },
+      "likes": 1334277
+    },
+    {
+      "slug": "anker-powercore-20000",
+      "name": "Anker PowerCore 20000",
+      "category": "Power Bank",
+      "n": 8500,
+      "net": 0.3095,
+      "net_weighted": 0.3263,
+      "by_sentiment": {
+        "mixed": 1654,
+        "negative": 1041,
+        "neutral": 1106,
+        "positive": 4699
+      },
+      "likes": 1209976
+    },
+    {
+      "slug": "dawlance-inverter-ac-15",
+      "name": "Dawlance Inverter AC 15",
+      "category": "Home Appliance",
+      "n": 7499,
+      "net": 0.138,
+      "net_weighted": 0.134,
+      "by_sentiment": {
+        "mixed": 1905,
+        "negative": 1559,
+        "neutral": 986,
+        "positive": 3049
+      },
+      "likes": 1079394
+    },
+    {
+      "slug": "khaadi-3-piece-lawn",
+      "name": "Khaadi 3-Piece Lawn",
+      "category": "Fashion",
+      "n": 6500,
+      "net": 0.2587,
+      "net_weighted": 0.3146,
+      "by_sentiment": {
+        "mixed": 1383,
+        "negative": 975,
+        "neutral": 757,
+        "positive": 3385
+      },
+      "likes": 911453
+    },
+    {
+      "slug": "haier-led-43-smart-tv",
+      "name": "Haier LED 43\" Smart TV",
+      "category": "Home Appliance",
+      "n": 5200,
+      "net": 0.2029,
+      "net_weighted": 0.2124,
+      "by_sentiment": {
+        "mixed": 1201,
+        "negative": 952,
+        "neutral": 619,
+        "positive": 2428
+      },
+      "likes": 701174
+    },
+    {
+      "slug": "xiaomi-smart-band-8",
+      "name": "Xiaomi Smart Band 8",
+      "category": "Wearable",
+      "n": 4799,
+      "net": 0.3208,
+      "net_weighted": 0.3332,
+      "by_sentiment": {
+        "mixed": 958,
+        "negative": 561,
+        "neutral": 580,
+        "positive": 2700
+      },
+      "likes": 668531
+    },
+    {
+      "slug": "nova-hair-straightener-nhc-2009",
+      "name": "Nova Hair Straightener NHC-2009",
+      "category": "Beauty",
+      "n": 11,
+      "net": 0.4921,
+      "net_weighted": 0.6719,
+      "by_sentiment": {
+        "mixed": 2,
+        "negative": 1,
+        "positive": 8
+      },
+      "likes": 3168
+    },
+    {
+      "slug": "solar-power-bank-s22",
+      "name": "Solar Power Bank S22",
+      "category": "Power Bank",
+      "n": 4,
+      "net": 0.2642,
+      "net_weighted": 0.6722,
+      "by_sentiment": {
+        "negative": 1,
+        "positive": 3
+      },
+      "likes": 101
+    }
+  ]
+}

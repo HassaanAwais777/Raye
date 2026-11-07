@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use Hisaab, please cite it as below."
+title: "Hisaab: digital-ad budget optimization on big data"
+authors:
+  - family-names: Awais
+    given-names: Muhammad Hassaan Mustaqeem
+    affiliation: "S2023376018"
+    orcid: "https://github.com/HassaanAwais777"
+version: 1.0.0
+date-released: "2026-11-04"
+license: MIT
+repository-code: "https://github.com/HassaanAwais777/Hisaab"
+abstract: "One aggregation contract across Pandas, Polars, MapReduce and PySpark;
+saturation-curve budget allocation via water-filling; and a sentiment bridge from
+the Raye multilingual sentiment corpus (210,511 comments) that adjusts platform
+budget factors with empirical-Bayes shrinkage."
+keywords:
+  - big-data
+  - mapreduce
+  - spark
+  - polars
+  - marketing-mix-modeling
+  - budget-optimization
+  - sentiment-analysis
