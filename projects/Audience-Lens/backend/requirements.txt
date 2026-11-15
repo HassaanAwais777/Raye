@@ -1,0 +1,19 @@
+# AudienceLens backend — Python 3.12 FastAPI modular monolith
+# Core deps (most are already available in the sandbox)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.0
+httpx>=0.27
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+
+# Database (Neon PostgreSQL). Optional at runtime — the backend works without
+# a live DB connection; models are Neon-ready and activate when DATABASE_URL is set.
+SQLAlchemy>=2.0
+# psycopg[binary]>=3.1   # install only when connecting to real Neon
+
+# YouTube Data API v3 is called via REST (httpx) — no google-api-python-client needed.
+# Google Ads API (google-ads) is intentionally NOT a hard dependency; it is only
+# required when a real Google Ads account is connected.
